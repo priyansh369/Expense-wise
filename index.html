@@ -74,7 +74,7 @@
       transform: scale(1.05);
     }
     canvas {
-      
+
       max-width: 100%;
       margin: 20px auto;
       animation: fadeIn 0.8s ease-in-out;
@@ -349,7 +349,7 @@
         // Add row to table
         const row = document.createElement('tr');
         row.innerHTML = `
-          <td>${transaction.transactionType}</td>
+          <td>${transaction.transactionType}<td>
           <td>${transaction.category}</td>
           <td>${transaction.paymentMethod}</td>
           <td>₹${transaction.amount.toFixed(2)}</td>
